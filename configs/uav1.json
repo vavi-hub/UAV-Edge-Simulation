@@ -1,0 +1,6 @@
+{
+  "uav_id": "uav_1",
+  "model": "matrice100",
+  "edge_device": "nvidia_jetson_nano",
+  "battery": 80
+}

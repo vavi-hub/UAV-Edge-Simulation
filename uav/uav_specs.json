@@ -1,0 +1,28 @@
+{
+  "matrice100": {
+    "model": "DJI Matrice 100",
+
+    "energy": {
+      "battery_energy_j": 360000
+    },
+
+    "flight": {
+      "hover_power_w": 200,
+      "cruise_power_w": 230,
+      "max_speed_mps": 12
+    },
+
+    "compute": {
+      "base_power_w": 2,
+      "inference_energy_j": 2,
+      "edge_device" : ""
+    },
+
+    "communication": {
+      "tx_energy_per_mb": 0.7,
+      "image_size_mb": 3
+    },
+
+    "sensors": ["rgb_camera"]
+  }
+}

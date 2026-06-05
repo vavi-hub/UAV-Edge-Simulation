@@ -1,0 +1,30 @@
+{
+  "nvidia_jetson_nano": {
+    "name": "NVIDIA Jetson Nano",
+
+    "compute": {
+      "flops": 0.5,
+      "cpu_cores": 4,
+      "gpu": true
+    },
+
+    "power": {
+      "idle_w": 2,
+      "load_w": 5
+    },
+
+    "inference": {
+      "speed_multiplier": 0.6,
+      "energy_multiplier": 0.7,
+      "supported_models": ["cnn", "yolo", "mobilenet"]
+    },
+
+    "memory": {
+      "ram_gb": 4
+    },
+
+    "thermal": {
+      "throttle_temp_c": 80
+    }
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAV Control Room</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <h1 class="dashboard-title">UAV DASHBOARD</h1>
+    
+    <button id="pauseBtn" onclick="togglePause()" title="Pause/Resume All">
+        <i class="fas fa-pause"></i>
+    </button>
+    
+    <div id="graph-container">
+        <!-- SVG Layer for Links and Animations -->
+        <svg id="edges-svg"></svg>
+        
+        <!-- Base Station -->
+        <div id="base-station">
+            <i class="fas fa-broadcast-tower"></i>
+            <span>Base Station</span>
+        </div>
+        
+        <!-- Nodes Container for UAVs -->
+        <div id="uav-nodes" class="node-layer"></div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
